@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: new Padding(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text("Don't have an account ? Registor"),
+                      child: new Text("Don't have an account ? Register"),
                     ),
                   )
                 ],

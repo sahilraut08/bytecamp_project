@@ -16,7 +16,7 @@ class ButtonWidget extends StatelessWidget {
         height: 40,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-              colors: [Color(0xffF5591F), Color(0xffF2861E)],
+              colors: [Color(0xff0a0048), Color(0xff000080)],
               end: Alignment.centerLeft,
               begin: Alignment.centerRight),
           borderRadius: BorderRadius.all(

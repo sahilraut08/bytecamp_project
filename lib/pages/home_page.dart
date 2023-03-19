@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                   context, MaterialPageRoute(builder: (context) => MakePaymentPage()));
             },
             child: const Icon(Icons.add, size: 25),
-            backgroundColor: Color(0xffF5591F)
+            backgroundColor: Color(0xff0a0048)
           //params
         ),
         floatingActionButtonLocation:
@@ -137,7 +137,7 @@ class _HomePageState extends State<HomePage> {
                         height: 60,
                         width: 60,
                         decoration: const BoxDecoration(
-                            shape: BoxShape.circle, color: Color(0xffffac30)),
+                            shape: BoxShape.circle, color: Color(0xff0a0048)),
                         child: Icon(
                           Icons.add,
                           size: 30,

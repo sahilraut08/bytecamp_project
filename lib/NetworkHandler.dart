@@ -7,7 +7,7 @@ class NetworkHandler
 {
   var logger = Logger();
 
-  String baseurl = "https://curly-termite-17.loca.lt/";
+  String baseurl = "https://funny-bananas-notice-136-232-248-186.loca.lt/";
 
   Future post(String url,Map<String, String> body)async
   {
@@ -16,10 +16,10 @@ class NetworkHandler
     var response = await http.post(
         Uri.parse(url),
         headers: {"Content-type": "application/json"},
-        body: json.encode(body)
+        body: jsonEncode(body)
     );
-    logger.d(response.body);
-    return json.decode(response.body);
+    // logger.d(response.body);
+    return jsonDecode(response.body);
   }
 
   Future get(String url) async

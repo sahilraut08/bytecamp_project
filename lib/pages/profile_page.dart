@@ -65,7 +65,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   context, MaterialPageRoute(builder: (context) => MakePaymentPage()));
             },
             child: const Icon(Icons.add, size: 25),
-            backgroundColor: Color(0xffF5591F)
+            backgroundColor: Color(0xff0a0048)
             //params
             ),
         floatingActionButtonLocation:

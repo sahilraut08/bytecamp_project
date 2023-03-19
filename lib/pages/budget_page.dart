@@ -54,7 +54,7 @@ class _BudgetPageState extends State<BudgetPage> {
                   context, MaterialPageRoute(builder: (context) => MakePaymentPage()));
             },
             child: const Icon(Icons.add, size: 25),
-            backgroundColor: Color(0xffF5591F)
+            backgroundColor: Color(0xff0a0048)
           //params
         ),
         floatingActionButtonLocation:
@@ -259,7 +259,7 @@ class _BudgetPageState extends State<BudgetPage> {
                                   height: 4,
                                   decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(5),
-                                      color: Color(0xffF5591F)),
+                                      color: Color(0xff0a0048)),
                                 ),
                               ],
                             )
